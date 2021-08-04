@@ -1,5 +1,5 @@
 # コードを実行するコンテナイメージ
-FROM debian:10.2
+FROM alpine:3.10
 
 # アクションのリポジトリからコードファイルをコンテナのファイルシステムパス `/`にコピー
 COPY entrypoint.sh /entrypoint.sh
